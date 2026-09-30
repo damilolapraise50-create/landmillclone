@@ -1,0 +1,23 @@
+@import "tailwindcss";
+.nav-link {
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.nav-link:hover {
+  background-color: #7c3aed;
+  color: white;
+  transform: scale(1.05);
+  padding: 4px 8px;
+  cursor:pointer;
+}
+.nav-links {
+  border-radius: 4px;
+  transition: 0.3s;
+}
+.nav-links:hover {
+  background-color: #b63a09;
+  color: white;
+  transform: scale(1.05);
+  padding: 4px 8px;
+  cursor:pointer;
+}
